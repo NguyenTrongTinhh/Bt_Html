@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        table, tbody, td{
+            border: 2px solid black;
+            width: 270px;
+            height: 40px;
+        }
+        body{
+            text-align: center;
+            
+        }
+        .color-white{
+            background-color: rgb(243, 233, 214);
+        }
+        .color-orange{
+            background-color: rgb(254, 211, 130);
+        }
+        .color-yellow{
+            background-color: yellow;
+        }
+        div{
+            width: 27%;
+            height: 50%;
+            position: relative;
+            left: 250px;
+            top: 100px;
+            padding: 5px;
+            background-color: rgb(234, 190, 106);
+        }
+
+    </style>
+<body>
+    
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="color-white">1</td>
+                    <td class="color-white", colspan="4">2</td>
+                </tr>
+                <tr>
+                    <td class="color-white", rowspan="3">3</td>
+                    <td class="color-orange">4</td>
+                    <td class="color-orange">5</td>
+                    <td class="color-yellow", colspan="2", rowspan="2">6</td>
+                </tr>
+                <tr>
+                    <td class="color-orange">7</td>
+                    <td class="color-orange">8</td>
+                </tr>
+                <tr>
+                    <td class="color-yellow", colspan="2">9</td>
+                    <td class="color-yellow">10</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
